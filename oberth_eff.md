@@ -3,61 +3,97 @@ output:
   pdf_document: default
   html_document: default
 ---
-# The Oberth effect: an argument for searching optimal strategies in psychopharmacology.
-### Designing interventions based on neurocircuitry dynamics 
+# The Oberth effect: chronological optimization of intervetion strategies for affective disorders.
+### Refining interventions by observing neurobehavioral dynamical properties. 
 *Felipe Coelho Argolo*$^{1}$  
 Universidade Federal de São Paulo, Universidade Federal da Bahia  
 email: felipe.c.argolo @protonmail.com; @protonmail.com; @gmail.com  
 
 ## Abstract
 
-*Keywords*: Psychopharmacology; 
+*Keywords*: Affective disorders; Ecological Momentary Assessment; Depression; Bipolar Disorder; Dynamical Systems; Oberth Effect.
 
 \pagebreak
 
 ## Introduction
 
-In psychiatry, treatment assets were predominantly discovered through serendipity events. The working mechanisms of effective interventions remain largely unaccounted by psychopathology and neurophysiology. Although some hypotheses had found support on consistent empirical data, coherent underlying rationales were elusive.  
+Assets for treatment in psychiatry were predominantly discovered through serendipity events [REF]. The working mechanisms of effective interventions remain largely unaccounted by psychopathology and neurophysiology. Although some hypotheses had found support on consistent empirical data, coherent underlying rationales were elusive [REF].  
 
-Antidepressants levered valuable investigations about mental disorders, such as the chemical imbalance theory. Since depressed patients responded to changes in neurotransmitters concentration, it was conjectured that they might posess uncommon levels of neural chemicals.  
-Following this line of thought, specific impairments were proposed for existing diagnostic clusters.  
-Psychosis was investigated for dopaminergic alterations (Dopamine hypothesis), while depression was framed as a possible deficiency in molecules such as serotonin (Monoamine hypothesis).   
-These ideas yielded advances, such as the development of clean (*n-th generation*) drugs targeting specific receptors. Second generation drugs carry less side effects while keeping effectiveness.  
-Nonetheless, several observations remained unexplained, as the efficiency of  eletroconvulvetherapy for affective disorders and failed attempts to dettect different neurotransmitter levels between patients and healthy individuals. These anomalies were generally approached through ad-hoc hypotheses (e.g. normalization of chemical levels after electrically induced convulsions).  
+Antidepressants levered valuable investigations about mental disorders, such as the chemical imbalance theory [REF]. Since depressed patients responded to changes in neurotransmitters concentration, it was conjectured that they might posess uncommon levels of neural chemicals.  
+Following this line of thought, specific impairments were proposed for existing diagnostic clusters [REF].
+Psychosis was investigated for dopaminergic alterations (Dopamine hypothesis), while depression was framed as a possible deficiency in molecules such as serotonin (Monoamine hypothesis) [REF].   
+These ideas yielded advances, such as the development of clean (*n-th generation*) drugs targeting specific receptors. Second generation drugs carry less side effects while keeping equivalent effectiveness [REF].  
+
+Nonetheless, several observations remain unexplained, as the efficiency of eletroconvulvetherapy for affective disorders and failed attempts to detect specific neurotransmitter profiles identifying patients and healthy individuals. These anomalies were generally approached through ad-hoc hypotheses (e.g. normalization of chemical levels after electrically induced convulsions) [REF].  
 
 
-In the last decades, multidisciplinary advances provided a better understanding of the brain.  
-On the physiological aspect, we could describe neural dynamics with enhanced precision, including populational activity. Noteworthy milestones were also achieve in reverse engineering the information processing mechanisms.  
-We may cite (1) encoding of reinforcement learning reward prediction errors by the neurons in the basal ganglia, (2) spatial mapping of visual stimuli to cortical (V1,V2,V3) neurons activity, (3) working memory attractor networks and long-term memory storage encoding in the hippocampus and (4) evolutively preserved central pattern generators for walking and swimming, (5) influence of the *period* gene in circadian rhythim.   
+In the last decades, multidisciplinary advances provided new frameworks to describe nervous systems of higher animals.  
+On the physiological aspect, we could describe neural dynamics with enhanced precision, including populational activity [REF]. Noteworthy milestones were also achieve in reverse engineering the information processing mechanisms.  
+We may cite (1) encoding of reinforcement learning reward prediction errors by the neurons in the basal ganglia [REF], (2) spatial mapping of visual stimuli to cortical (V1,V2,V3) neurons activity [REF], (3) working memory attractor networks and long-term memory storage encoding in the hippocampus [REF] and (4) evolutively preserved central pattern generators for walking and swimming [REF], (5) influence of the *period* gene in circadian rhythim [REF].   
 
-The unraveled details of neural functions in networks present across species
-imply that the interaction among different brain structures is key in understanding behavior and abnormal instances of it.  
-In the last decades, joint effort has led to more coherent theories about mental disorders, comprising previous anomalies.   
+The unraveled details of networks present across species imply that the interaction among different structures through time is key to understand global behavior [REF].  
+Joint effort has led to more coherent theories about mental disorders, comprising previous anomalies.   
+Focusing on information processing and system states (embodied cognition) eliminates previously cited paradoxes, since circuit states could be manipulated in equivalent ways whether via electrical current, drugs or behavioral interventions.  
+As expected, the prism of network dynamics (graph theory and dynamic system approaches) has solved some apparent contradictions, while also favoring insights for clinical taxonomy and phenotyping. This framework has also allowed for the conception of novel (yet to be validated) interventions targeting microenvironmental variables (e.g.microglia) and specific electrical activity (e.g. TMS) [REF: blood/fecal transplant@JamesLeckman ; TMS@Brunoni)  
+
+
+Initial efforts to investigate therapeutical effects of psychoative drugs targeted stable ranges bioavailability.  
+
+This is not always the optimal strategy: other medical specialties make use of temporal asymmetries to optimize effectiveness. Endochrinologists modulate hormonal axes in consonance with their natural dynamics (e.g. oral contraceptives with varying doses after the menstrual cycle) [REF]. Cardiologists induce a desired state with drugs and also observe cardiac cyclic states in order to maximize efficiency in cardioversion [REF].  
+
+In this paper, we outline possible parallel applications in psychiatry.  
+For instance, instead of maintaining a constant or slowly-increasing dosage, patients could benefit of time-varying dosages in precisely planned periods. We discuss how recently acquired tools (e.g. Ecological Momentary Assessment, EMA) provide potentially valuable measures for this approach.  
+
+Indeed, researchers are already looking for the optimal chronological regimes in multiple session intervetions (e.g. infused sketamine or eletroconvulvetherapy).  
+This perspective also opens the possibility for the development of new psychoactive drugs, targeting distinct pharmacokinects and microbioavaliability instead of disease-specific receptors [REF].  
+
+## Dynamics of Mood Neurobehavior
+
+The evolutionary emergence of complex nervous systems is a characteristic of higher animals [REF]. Evolving from simple signaling processing organs wired to rudimentary motor responses [REF], mammals' brain possesses structures with marked distinct connections, functioning and developmental pathways.  
+
+Affective disorders express altered mood, a construct describing a base state influencing several instances of behavior. Positive mood is related to optimistic bias in evaluation of future scenarios. Instant perception of environmental experiences (e.g. more pleasant sensations) and self-percetion (e.g. increase in self-confidence) is also influenced [REF]. Negative mood is intimately related to depression: negative bias for expectations, pessimistic evaluation of the environment, feelings of self worthlessness [REF].  
+
+The underlying circuitry was one of the first targets of neuroscience, hence being extensively studied. The quantitative connection between reward prediction errors (RPE) and firing rates of dopaminergic neurons in the Basal Ganglia was extensively explored [REF] in several animals, including humans. A full characterization of networks heavily important for these functions is undergoing [REF], however the prefrontal cortex (PFC) seems to play a very prominent hole. Often, the PFC (specially the mPFC) composes theories of mood functioning [REF] as a modulation hub [REF]. Findings from neuroimaging support these circuits are related to depressive symptoms from an early age [REF Pedro].  
+
+Recent results give precise quantitative support for the relationship between RPE and self-perceived emotional states [REF @Rutledge-JAMAPsych2017]. An ecological perspective suggests that mood regulates an organism's exploration and exploitation policies in the environment [REF]. For instance, restrained behavior (e.g. lower motor activity, longer periods of sleep) may be strategically wise in scarcity situations [REF]. Risk-taking and exploration of new actions also presents a trade-off according to environmental conditions: volatile returns disencourage exploiting conservative policies [REF].   
+
+Experimental efforts far from completely closing the gap between theoretical constructs and observed phenomena [REF]. However availale results [REF] suggest a close interaction between time evolution of mood, rewards and environmental settings (e.g. seasonal manifestation of major depression and mania; reward-related trigger events for depression and mania; mammalian behavioral response to environment, including hibernation). In fact, the very definition of a major depressive episode requires minimal duration (4 weeks) for symptoms.
+
+Neurophysiological dynamics describe how such processes are instantiated in biological cells. Approaches include top-down generative models, in which one infers hidden characteristics of the nervous system by finding models capable of generating similar outputs [REF]. Bottom-up approaches investigate global behavior of neural networks by simulating thousands of neurons from different populations [REF]. Dynamical system frameworks are often employed by both perspectives (top-down and bottom-up) in order to investigate time evolution of interacting strucures. This is generally done by expressing population firing with stable or quasi-stable state spaces using coupled differential equations [REF].  
+
+![Coupled activity of 2-unit recurrent neural network expressing three types of atractors, from Daniel Durstewitz, 2018](images/PLRNN.png)  
+
+
+\pagebreak
+
+**Interventions for affective disorders**  
+@ Linear-increasing effect of SSRI (from 1 week)   
+@ Sketamine / ECT (multiple time separated sessions for consistent response)  
+@ Failure of "holiday use"  
+
+@ Explanatory models  
 The co-evolving *state* dynamics of coupled neural circuits may be affected in several ways.  
-Stable or quasi-stable states @Durstewitz,Huys.2018 related to behavioral patterns may be modified by changing the chemical concentrations. Mathematical modelling of physiological data describe how different perturbations may decrease (flatten), increase (deepen) or destroy (quash) these stable spaces. Stimulating D1 receptors deepen attractors, while D2 has the opposite effect @Durstewitz&Seamans,2008. Low concentrations of ketamine destabilize (quash) the system and may also explay how eletroconvulvetherapy acts on affective states.   
+Stable or quasi-stable states [REF Durstewitz,Huys.2018] related to behavioral patterns may be modified by changing the chemical concentrations. Mathematical modelling of physiological data describe how different perturbations may decrease (flatten), increase (deepen) or destroy (quash) these stable spaces. Stimulating D1 receptors deepen attractors, while D2 has the opposite effect [REF: @Durstewitz&Seamans,2008].  
+@ Non-reward attractor theory [REF]  
+Low concentrations of ketamine destabilize (quash) the system and may also explay how eletroconvulvetherapy acts on affective states.  
 
-Focusing on information processing and system states (embodied cognition) eliminates previously cited paradoxes, since circuit states could be manipulated in equivalent ways either via electrical current or drugs.  
 
-As expected, the prism of network dynamics (graph theory and dynamic system approaches) has solved some apparent contradictions, while also favoring insights for clinical taxonomy and phenotyping. This framework has also allowed for the conception of novel interventions targeting microenvironmental variables (e.g.microglia) and specific electrical activity (e.g. TMS) . @blood/fecal transplant JamesLeckman@Brunoni-TMS  
-
-In this paper, we propose making use of temporal asymmetries in the brain network systems to optimze pharmacological effectiveness. This strategy is largely used by endochrinologists to modulate hormonal axes in consonance with their natural dynamics. Cardiologists induce a desired state with drugs and also observe cardiac cyclic states in order to maximize efficiency in cardioversion.  
-In practice, instead of maintaining a constant or slowly-increasing dosage, a patient could respond to treatment by intaking oscilating dosages or specific planned periods. Researchers are already looking for the optimal regime in multiple session intervetions (e.g. infused sketamine or eletroconvulvetherapy).  
-This perspective also opens the possibility for the development of new psychoactive drugs, targeting distinct pharmacokinects and microbioavaliability instead of disease-specific receptors.  
-
-## Neurobehavior of mood
-
-### Dynamical system modelling
-
-## Attractors and the Hohmann orbit  
+## Optimzing resources in state transitions  
 
 In the Oberth maneuver, a spacecraft falls into a gravitational well and accelerates when at maximum speed. This is more efficient to gain kinetic energy as compared to applying impulse outside of the well. In fact, the most energy-efficient method is at the lowest possible orbital periapsis, when orbital velocity is maximized.  
 
 ![](images/hohmann_transfer_orbit.png)  
 
-In general a Hohmann transfer orbit uses the minimum amount of energy to gradually spiral out of an attractor.
+A Hohmann transfer orbit minimizes the amount of energy to gradually spiral out of an attractor by wisely benefiting from the gravitational pull.  
 It is used to increase payload capacity considering a fixed amount of energy. European Swedish-designed satellite SMART-1 (2003) made use of this to spiral out of Earth until it deliberately crashed into the Moon (2006).  
 
-## Proof of concept simulations
+Knowing certain system characteristics gives information about moments to perturb the system in order to force transitions to new state spaces. As highlighted before, the states of biological neural populations are sucessfully modelled after attractor networks.  
+
+## Proof of concept simulations  
+
+@ Simular modelagem de time series do EMA   
+
+@ Simular espaços vulneráveis a diferentes perturbações.   
 
 ## Discussion
 
