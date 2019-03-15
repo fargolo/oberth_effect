@@ -3,8 +3,8 @@ output:
   pdf_document: default
   html_document: default
 ---
-# Chronological refinement of intervetion strategies for affective disorders using ecological momentary assessment - The Oberth effect
-### Optimizing interventions by observing dynamical properties in neurobehavior.  
+# Refinement of chronological assessment for affective disorders: Preliminary results of ecological momentary assessment 
+### by observing dynamical properties in neurobehavior.  
 *Felipe Coelho Argolo*$^{1}$, *Pedro M. Pan*$^{1}$, *Rodrigo A. Bressan*$^{1}$   
 Universidade Federal de São Paulo, Universidade Federal da Bahia  
 email: felipe.c.argolo @protonmail.com; @protonmail.com; @gmail.com  
@@ -24,7 +24,6 @@ Specific impairments were proposed for existing diagnostic clusters. The psychos
 These ideas yielded advances, such as the development of clean (*n-th generation*) drugs targeting specific receptors. Second generation drugs carry less side effects while keeping equivalent effectiveness [Davis, 2003].  
 
 Nonetheless, several observations remain unexplained, as the efficiency of eletroconvulvetherapy for affective disorders and failed attempts to detect specific neurotransmitter profiles identifying patients and healthy individuals. These anomalies were generally approached through ad-hoc hypotheses (e.g. normalization of chemical levels after electrically induced convulsions) [Bolwig, 2011].  
-
 
 In the last decades, multidisciplinary advances provided new frameworks to describe the nervous systems of different animals.  
 On the physiological aspect, one could describe neural dynamics with enhanced precision, including populational activity [Greicius, 2003]. Noteworthy milestones were also achieve in reverse engineering the information processing mechanisms.
