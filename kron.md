@@ -4,7 +4,7 @@ output:
   word_document: default
   html_document: default
 ---
-# Refining chronological assessment for affective disorders: Preliminary results of ecological momentary assessment in a community sample 
+# Refining chronological assessment in affective disorders: Preliminary results of ecological momentary data from a community sample 
 ### Outlining clinical applications of the dynamical properties in neurobehavior.  
 *Felipe Coelho Argolo*$^{1}$, *Pedro M. Pan*$^{1}$, *Rodrigo A. Bressan*$^{1}$   
 Universidade Federal de São Paulo, Universidade Federal da Bahia  
@@ -19,7 +19,7 @@ We present preliminary findings from the third phase of assessment (2017-2018). 
 @ Results  
 @ Discussion  
 
-*Keywords*: Affective disorders; Ecological Momentary Assessment; Depression; Bipolar Disorder; Dynamical Systems; Oberth Effect.
+*Keywords*: Affective disorders; Ecological Momentary Assessment; Depression; Bipolar Disorder; Dynamical Systems.
 
 \pagebreak
 
@@ -53,26 +53,22 @@ Neurophysiological dynamics describe how such processes are instantiated in biol
 
 ![Coupled activity of 2-unit recurrent neural network expressing three types of atractors, from Durstewitz, 2018](images/PLRNN.png)  
 
+## Ecological Momentary Assessment
+@
+
 \pagebreak
-
-### Ecological momentary Assessment
-
-EMA Protocol (Full texts of questions and screenshots in Supplement. Mat.?) - [REFs tansl Netherlands & Dynamore & Urban Minds]  
-@ Analysis - Evaluating hidden states in timeseries measures (e.g. high mood, bad mood); relationship between variables (e.g. sleep vs. energy). Gaussian processess and dynamical systems. 
-
 
 ## Methods
 
 ### The Brazilian High Risk Cohort
 
-The Brazilian High Risk Cohort (HRC) is a large (n = 2,512) community sample of youths (inclusion age range: 6-14y) stratified for high risk for mental disorders from 9,937 candidates. Three data collection phases occured (2010-2011, 2013-2014, 2018-Current).  
+The Brazilian High Risk Cohort (HRC) is a large (n = 2,512) community sample of youths (inclusion age range: 6-14y) stratified for high risk for mental disorders from 9,937 candidates. Three data collection phases occured (2010-2011, 2013-2014, 2018-Current). Further details can be found in (Salum et al, 2015) 
 
 Measures include physiological data (e.g. fMRI, genome sequencing), clinical and neuropsychological tests. A subsample of 750 participants possess at least one brain image. It was used to demonstrate a relationship between previously cited brain networks and major depression [Pan, 2017].  
 
+#### Mobile data
 
-### Econological momentary assessment
-
-Current phase includes It includes ecological momentary assessment  through mobile phone (4 weeks intensive, 1 year sparse).  
+Current phase includes ecological momentary assessment  through mobile phone (4 weeks intensive, 1 year sparse).  
 Participants and parents or relatives were asked to install and interact with our in-house Electronic Momentary Assessment (EMA) software. This application conforms to ethical norms and its used was approved by national and regional ethical research committees, it also obeys privacy and user right policies enforced by Google and Apple distribution server stores.
 
 Our application gathers input through screen prompted self-report items. Users consent to every step of data collection.
@@ -82,6 +78,8 @@ Our protocol measures human behavior using multiple targets, such as: sleep patt
 *Supplementary material* provides a detailed reference list of items, including sources, description of prompted stimuli, measurement data types and referred code section
 
 ![](images/app.png)
+
+### Analysis 
 
 \pagebreak
 
@@ -100,7 +98,7 @@ Table 2 - Descriptive of time series
 |   | Sleep quality  |  Relaxed | Well-being  | Active  | Happy  | Calm   | Energetic  |
 |---|---|---|---|---|             ---|---|---|
 | Volatity ( $\sigma$ )|   |   |   |   |          |   |   |
-| Average ($\mu$)  |   |   |   |   |         |   |   |
+| Average ( $\mu$ )  |   |   |   |   |         |   |   |
 
 Table 3 -  Cross-correlation between variables  
 
@@ -116,7 +114,7 @@ Table 3 -  Cross-correlation between variables
 | Energetic  |   |   |   |   |   |   |   |   |
 
 
-[Time series measures of 6 variables from 2 participants (blue and green)](images/EMA.png)  
+![Time series: 4 daily measures (rows) of 6 variables from 3 participants (columns)](images/EMA.png)  
 
 ![Self reported sleep duration for 8 participants](images/duration-sleep.png)  
 
