@@ -3,7 +3,7 @@ output:
   pdf_document: default
   html_document: default
 ---
-## Mood as momentum: ptimizing resources in state transitions
+## Mood as momentum: otimizing resources in state transitions
 
 In the Oberth maneuver, a spacecraft falls into a gravitational well and accelerates when at maximum speed. This is more efficient to gain kinetic energy as compared to applying impulse outside of the well. In fact, the most energy-efficient method is at the lowest possible orbital periapsis, when orbital velocity is maximized. A Hohmann transfer orbit minimizes the amount of energy to gradually spiral out of an attractor by wisely benefiting from the gravitational pull. It is used to increase payload capacity considering a fixed amount of energy. European Swedish-designed satellite SMART-1 (2003) made use of this to spiral out of Earth until it deliberately crashed into the Moon (2006).  
 

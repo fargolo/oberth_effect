@@ -81,40 +81,57 @@ Our protocol measures human behavior using multiple targets, such as: sleep patt
 
 ### Analysis 
 
+Long term goals include deriving domain specific equations describing chronological evolution of measures along with relationships among them.  
+In order to capture invidual profiles, we used a generative model for the time series of self-reported scores (Well-being, Calm, Relaxed, Active, Happy, Energetic)
+A Bayesian framework generated posterior estimates of key parameters associated with individual's data. In a multiple-output Gaussian process, we consider $y_{i}$ observations at each $t_{i}$, where $y$ is a $n$-dimensional vector $y_{i} \in \mathbb{R}^{n}$ for $n$ different variables.  
+The ouput is then given by a multivariate normal distribution whose mean depends on a Gaussian process. Each value is defined after time related autocorrelations and between-variables covariance.  
+$$
+\begin{aligned}
+  y_i & \sim \mathsf{\mathcal{N}_{n}}(f(x_i), \mathbf{I}_n \sigma^2) \\
+  f(x) & \sim \mathsf{GP}(m(x), K(x | \theta, \phi)) \\
+  K(x & | \theta) \in \mathbb{R}^{n \times n}, \, f(x), \, m(x) \in \mathbb{R}^n
+\end{aligned}
+$$
+Kernel $K$ parameterizes covariances after $\theta$ and $\phi$. Posterior estiamates of covariances among variables can later be extracted. A detailed definition of the model, along with code used (Stan version *2.18.0*) is available in the supplementary material section.  
+
 \pagebreak
 
 ## Results 
 
+Current sample comprises 67 users (Dec/18 - Jan/19) some of which did not went through full evaluation by the end of January.  
+
+Participants are X% male and age ranges from X to X (Mean+-sd). X% went through ate least 1 neuroimaging session. Key cognitive and clinical characteristics are displayed in **Table 1**.  
+ 
 Table 1 - Descriptive data of sample
 
 | Sample characteristics  |   |
 |---|---|
 | Age: mean(sd)  |   |
 | Sex:%Male  |   |
+| CBCL  |   |
+| SDQ  |   |
+| IQ  |   |
+| P factor (Salum et al.,)  |   |
 | ?  |   |
 
-Table 2 - Descriptive of time series
-
-|   | Sleep quality  |  Relaxed | Well-being  | Active  | Happy  | Calm   | Energetic  |
-|---|---|---|---|---|             ---|---|---|
-| Volatity ( $\sigma$ )|   |   |   |   |          |   |   |
-| Average ( $\mu$ )  |   |   |   |   |         |   |   |
-
-Table 3 -  Cross-correlation between variables  
-
-|   |   | Sleep duration  | Sleep quality  | Relaxed | Well-being  | Active  | Happy  | Calm   | Energetic  |
-|---|---|---|---|---|---|---|---|---|
-| Sl. duration   |   |   |   |   |   |   |   |   |
-| Sl. quality  |   |   |   |   |   |   |   |   |
-| Relaxed  |   |   |   |   |   |   |   |   |
-| Well-being  |   |   |   |   |   |   |   |   |
-| Active     |   |   |   |   |   |   |   |   |
-| Happy |   |   |   |   |   |   |   |   |
-| Calm   |   |   |   |   |   |   |   |   |
-| Energetic  |   |   |   |   |   |   |   |   |
-
+**Table 2** provides summary measures for relf-reported variables (median and interquartile range). Columns correspond to measure order (0: first measure in the morning; 3: last measure at night).   
 
 ![Time series: 4 daily measures (rows) of 6 variables from 3 participants (columns)](images/EMA.png)  
+
+
+Table 2 -  Summary (centre and dispersion) of measures  
+
+Table 3 - Point estimates for covariance among variables for one patient
+
+|   |   | Well-being | Calm  | Relaxed  | Active  | Happy   | Energetic  |
+|---|---|---|---|---|---|---|---|---|
+| Well-Being  |   |   |   |   |   |   |   |   |
+| Calm  |   |   |   |   |   |   |   |   |
+| Relaxed     |   |   |   |   |   |   |   |   |
+| Active |   |   |   |   |   |   |   |   |
+| Happy   |   |   |   |   |   |   |   |   |
+| Energetic  |   |   |   |   |   |   |   |   |
+
 
 ![Self reported sleep duration for 8 participants](images/duration-sleep.png)  
 
